@@ -18,7 +18,7 @@ jobs:
 
           # Options
           user: thorpelawrence
-          repositories_affiliations: collaborator
+          repositories_affiliations: owner
           template: classic
           base: header, activity, community, repositories, metadata
           config_timezone: Europe/London
