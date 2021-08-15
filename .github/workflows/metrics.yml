@@ -1,8 +1,8 @@
 # Visit https://github.com/lowlighter/metrics/blob/master/action.yml for full reference
 name: Metrics
 on:
-  # Schedule updates (00:00 Sunday)
-  schedule: [{ cron: "0 0 * * 0" }]
+  # Schedule updates (07:00 Saturday)
+  schedule: [{ cron: "0 7 * * 6" }]
   # Lines below let you run workflow manually and on each commit
   workflow_dispatch:
   push:
