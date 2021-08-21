@@ -2,7 +2,7 @@
 name: Metrics
 on:
   # Schedule updates (07:00 Saturday)
-  schedule: [{ cron: "0 7 * * 6" }]
+  schedule: [{ cron: "12 7 * * 6" }]
   # Lines below let you run workflow manually and on each commit
   workflow_dispatch:
   push:
